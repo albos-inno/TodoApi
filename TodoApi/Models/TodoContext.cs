@@ -10,5 +10,7 @@ namespace TodoApi.Models
         }
 
         public DbSet<TodoItem> TodoItems { get; set; }
+
+        public DbSet<TodoItemDTO> TodoItemDTO { get; set; }
     }
 }
